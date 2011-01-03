@@ -1,0 +1,6 @@
+step by step:
+
+$ ./configure
+$ make
+$ ./train ./data/train Model
+$ ./test Model ./data/test
