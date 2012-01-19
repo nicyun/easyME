@@ -1,0 +1,10 @@
+.deps
+Makefile
+config.h
+*.log
+*.o
+config.status
+stamp-h1
+test
+train
+Model

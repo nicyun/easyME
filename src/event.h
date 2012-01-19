@@ -1,5 +1,5 @@
 /**
- *  maxent toolkit
+ *  easyME -- a Maximum Entropy toolkit
  *
  *  Copyright(C) 2009
  *

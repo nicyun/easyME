@@ -1,5 +1,5 @@
 /**
- *  maxent toolkit
+ *  easyME -- a Maximum Entropy toolkit
  *
  *  Copyright(C) 2009
  *
@@ -27,7 +27,7 @@ public:
             double _sigma2,
             double _alpha);
 
-    bool train();
+    bool train();
 
 private:
 

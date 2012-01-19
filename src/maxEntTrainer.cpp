@@ -1,5 +1,5 @@
 /**
- *  maxent toolkit
+ *  easyME -- a Maximum Entropy toolkit
  *
  *  Copyright(C) 2009
  *
@@ -38,6 +38,7 @@ void MaxEntTrainer::_initTrainer(void)
 // E_ref = E_q * exp (C * delta_i) + ------------------ * N
 //                                       sigma_i^2
 // note: E_ref and E_q were not divided by N
+// this function is copied from Le Zhang's work
 double MaxEntTrainer::_newton(double f_q, double f_ref, double lambdaNow, double mEps)
 {
     size_t maxiter = 50;
