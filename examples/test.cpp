@@ -44,7 +44,7 @@ void testModel(MaxEntModel * me, const char * testFile)
     }
     int ttime = clock();
     cout << "all test time (including read file time) is : " << (double)(ttime - stime) / CLOCKS_PER_SEC << "s" << endl;
-    cout << "just predict time is : " << preTime / CLOCKS_PER_SEC << "s" << endl;
+    cout << "only predict time is : " << preTime / CLOCKS_PER_SEC << "s" << endl;
 	cout << "test ok and corr is : " << (double)corr / tot << endl;
 }
 

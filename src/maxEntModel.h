@@ -26,8 +26,9 @@ public:
     *@param   trainFileName : the name of the training file
 	*@param	  freq : whether the training file contains the frequency of the event
     *         format of the training file:
-    *         (frequency) class_name feature_1 feature_2 ... feature_n
+    *         [frequency] class_name feature_1 feature_2 ... feature_n
     *@param   select : whether to perform the feature selection function
+	*		  howerever, there is no implementation of feature selection -_-
     *@return  1 to success, 0 to fail
     */
     bool initModel(const char *trainFileName,

@@ -11,7 +11,7 @@ using namespace maxent;
 int main(int argc, char * argv[])
 {
     if(argc < 3){
-        cerr << "please specify the training file name and model file name!" << endl;
+		cerr << "Usage: " << argv[0] << " train_file_name model_file_name [num_iter] [training_algorithm] [tol] [sigma2] [alpha]" << endl;
         exit(-1);
     }
 

@@ -1,6 +1,25 @@
-step by step:
+This is a simple implementation of Maximum Entropy model.
+Algorithms implemented include: GIS, SCGIS, LBFGS, Gaussian
+smoothing and Exponential smoothing.
 
+We provide ample interface to build your own applications,
+please refer to src/maxEntModel.h for more information.
+
+We provide two sample applications at ./examples, one for
+training and one for testing.
+
+The folder ./data contains a small test corpus, which is borrowed
+from Lin's toolkit
+
+Using the following scripts to build and run our example programs
+with the small corpus:
 $ ./configure
 $ make
 $ ./train ./data/train Model
 $ ./test Model ./data/test
+
+NOTE: the example programs are likely to be insufficient for your
+demands, refer to src/maxEntModel.h and build your own application.
+
+Any problems please contact us: nicyun@gmail.com
+
